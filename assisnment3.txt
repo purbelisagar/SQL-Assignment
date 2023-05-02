@@ -1,0 +1,2 @@
+SELECT * FROM sqlassignment.driver_details;
+select driver_id, firstname, middlename, lastname from sqlassignment.driver_details where lastname = 'dahal';
