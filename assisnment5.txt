@@ -1,0 +1,53 @@
+Assignment no 5
+
+Sql Querry
+
+Question1
+select driver_id, firstname, enrollment_optin_date from sqlassignment.driver_details
+where firstname = 'an%';
+
+Question2
+select * from sqlassignment.driver_details where address1 like '%an' or 'am%';
+
+Question3 
+update sqlassignment.driver_details set firstname = 'Gulabi', lastname = 'martinez', 
+address1 = 'burlesson' where driver_id =3;
+
+Question4 show error(need to ask)
+update sqlassignment.driver_details set city = 'Hetauda', address1 = 'Bargachi'
+where country ='Nepal';
+
+
+Question5
+delete from sqlassignent.driver_details where firstname = 'Ram';
+
+Question6
+delete from sqlassignent.driver_details where firstname = 'Shyam' and lastname = 'Dahal';
+
+Question7
+select * from sqlassignment.driver_details where driver_id between 3 and 6;
+
+Question8
+select min(enrollment_optin_date) from sqlassignment.driver_details;
+
+Question9
+select max(enrollment_optin_date) from sqlassignment.driver_details;
+
+Question10
+select count(driver_id) from sqlassignment.driver_details;
+
+Question11
+select * from sqlassignment.driver_details where driver_id <= 4;
+
+Question12
+select * from sqlassignment.driver_details where driver_id >= 4;
+
+Question13
+
+Could you please help me to solve the question no 13
+select max(driver_id)  from sqlassignment.driver_details and 'firstname';
+I wrote above syntax and it shows me error
+
+
+
+
